@@ -1,13 +1,15 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">WSO2 Demo RetailApp</string>
     <string name="username">UserName</string>
     <string name="email_address">Email Address</string>
     <string name="user_profile">User Profile</string>
     <string name="logout">Logout</string>
-    <string name="welcome">Welcome</string>
     <string name="username1">User Name</string>
     <string name="email">Email Address</string>
     <string name="logoutb">Logout</string>
     <string name="login_with_wso2_is">Login with WSO2 IS!</string>
     <string name="login">Login</string>
+    <string name="idtoken">IdToken</string>
+    <string name="accesstoken">AccessToken</string>
+    <string name="welcome">Welcome</string>
 </resources>

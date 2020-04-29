@@ -7,54 +7,52 @@
     tools:context=".UserInfoActivity">
 
     <TextView
-        android:id="@+id/usernameview"
-        android:layout_width="158dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="122dp"
-        android:text="@string/username1"
-        android:textColor="@color/colorPrimary"
+        android:id="@+id/username"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="185dp"
+        android:layout_marginTop="37dp"
+        android:textAlignment="viewStart"
+        android:textColor="@color/browser_actions_title_color"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/emailview"
-        android:layout_width="158dp"
-        android:layout_height="59dp"
+        android:id="@+id/usernameview"
+        android:layout_width="94dp"
+        android:layout_height="25dp"
         android:layout_marginStart="44dp"
-        android:layout_marginBottom="472dp"
+        android:layout_marginTop="400dp"
+        android:text="@string/username1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/emailview"
+        android:layout_width="96dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="460dp"
         android:text="@string/email"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
+        android:textSize="14sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/logout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="56dp"
-        android:layout_marginBottom="316dp"
+        android:layout_marginStart="287dp"
+        android:layout_marginTop="547dp"
         android:text="@string/logoutb"
         android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="115dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="34dp"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="651dp"
-        android:text="@string/welcome"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,26 +65,77 @@
 
     <TextView
         android:id="@+id/emailid"
-        android:layout_width="161dp"
-        android:layout_height="56dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="472dp"
+        android:layout_width="220dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="460dp"
         android:textAlignment="viewStart"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:textColor="@color/browser_actions_title_color"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/username"
-        android:layout_width="149dp"
-        android:layout_height="53dp"
-        android:layout_marginTop="120dp"
-        android:layout_marginEnd="24dp"
-        android:textAlignment="viewStart"
+        android:id="@+id/idtextView"
+        android:layout_width="86dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="160dp"
+        android:text="@string/idtoken"
         android:textColor="@color/colorPrimaryDark"
-        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idtoken"
+        android:layout_width="227dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tokentextView"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/accesstoken"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/accesstoken"
+        android:layout_width="220dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="35dp"
+        android:text="@string/welcome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="223dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="408dp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
